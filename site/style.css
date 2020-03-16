@@ -1,0 +1,48 @@
+body {
+     background-image: url(images/mers.jpg) ;
+
+}
+
+
+#test {
+
+
+    font-size: 100px ;
+background-color: royalblue;
+color: skyblue;
+padding: 100px;
+margin: 15px;
+border: 0px solid black ;
+border-radius:  30px;
+opacity: 0.7;
+box-shadow: 0px 0px 100px blue;
+
+width: 200px;
+
+height: 100px;
+
+display: block;
+
+text-align: center;
+
+font-weight: 600;
+
+
+
+
+}
+
+#test:hover {
+    opacity: 0.9;
+    transform: rotate(10deg) ;
+    transition:  3s all;
+    background-color: blueviolet;
+    
+}
+
+
+p {
+
+    background-color: burlywood;
+    border: 5px solid pink;
+}

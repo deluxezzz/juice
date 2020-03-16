@@ -1,0 +1,20 @@
+
+.bitch {
+   color: green;
+  span {
+    color: red;
+    opacity: 0.1;
+  }
+}
+
+.link {
+  color: blue;
+  &:hover {
+    color: red;
+  }
+
+  & a:active {
+    color: green ;
+  }
+}
+

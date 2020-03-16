@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    text-align: center;
+    padding: 20px;
+    background: #0d0c15;
+}
+
+
+#game {
+    padding: 10px;
+    background: #2b2b2b;
+    color: white;
+    display: inline-block ;
+    border-radius: 30px;
+
+}
+
+#game #title {
+    padding-bottom: 10px;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 30px;
+    color: #00a7ff;
+    text-shadow: 0 0 10px blueviolet;
+
+}
+
+#cnv {
+    border-radius: 15px;
+    background: #385a6e;
+    box-shadow: 0 0 5px purple;
+    
+}

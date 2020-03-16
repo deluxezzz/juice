@@ -1,0 +1,73 @@
+
+
+
+
+.pick {
+    padding-top: 87px;
+    padding-left: 600px;
+    /* Style for "light-man" */
+width: 821px;
+height: 541px;
+    
+    background: url("img/3.png")50% no-repeat, url("img/2.png") no-repeat ;
+    
+  
+}
+
+
+
+.main {
+    /* Style for "Layer 0" */
+    
+width: 1440px;
+height: 1700px;
+background-color: #e8e8e8;
+}
+
+
+.text1 { /* Style for "Travel" */
+    display: inline-block;
+    margin-top: 168px;
+    margin-left: 671px;
+    width: 67px;
+    height: 10px;
+    opacity: 0.6;
+    color: #273d46;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    /* Text style for "Travel" */
+    letter-spacing: 2.8px;
+}
+.text2 {
+            display: inline-block;
+            margin-top: 50px;
+            margin-left: 347px;
+    /* Style for "Donec sed" */
+width: 721px;
+height: 75px;
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 36px;
+font-weight: 400;
+line-height: 50px;
+}
+
+.text3 {
+    /* Style for "Donec ared" */
+    display: block;
+    margin-top: 100px;
+    margin-left: 377px;
+width: 736px;
+height: 257px;
+opacity: 0.8;
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+}
+.text4 {
+}

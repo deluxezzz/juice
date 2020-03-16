@@ -1,0 +1,19 @@
+.bitch {
+  color: green;
+}
+.bitch span {
+  color: red;
+  opacity: 0.1;
+}
+
+.link {
+  color: blue;
+}
+.link:hover {
+  color: red;
+}
+.link a:active {
+  color: green;
+}
+
+/*# sourceMappingURL=SASS.css.map */

@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+
+
+
+  <div class="container">
+    <!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+    <input id="toggle" type="checkbox">
+
+    <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+
+    <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+    <label class="toggle-container" for="toggle">
+      <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+      <span class="button button-toggle"></span>
+    </label>
+
+    <!-- Навигация -->
+    <nav class="nav">
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Управление</a>
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="">История</a>
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Статистика</a>
+      <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Настройки</a>
+    </nav>
+
+    <!-- Просто фиктивное содержимое, как в анимированном gif -->
+    <section class="dummy-content">
+      <div class="circle"></div>
+      <div class="text">
+        <span></span><span></span>
+      </div>
+      <div class="square-top"></div>
+      <div class="square-behind"></div>
+    </section>
+  </div>
+
+
+
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
